@@ -2,4 +2,4 @@
 
 
 ALL:
-	g++ -o main.cgi main.cpp -lcgicc -lcurlpp -lcurl -ljsoncpp  -Wall
+	g++ -o build/main.cgi src/main.cpp -lcgicc -lcurlpp -lcurl -ljsoncpp  -Wall
