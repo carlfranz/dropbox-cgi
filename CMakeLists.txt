@@ -6,6 +6,7 @@ add_executable(main.cgi main.cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-target_link_libraries(main.cgi PUBLIC jsoncpp -gicc curlpp curl)
+target_link_libraries(main.cgi PUBLIC jsoncpp cgicc curlpp curl)
 
 add_compile_options(-Wall -Wextra -Wpedantic)
+
