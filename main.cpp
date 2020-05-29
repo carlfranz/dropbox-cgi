@@ -172,8 +172,6 @@ int main()
 		cout << "Content-type: text/plain" << endl;
 		cout << "X-Content-Type-Options: nosniff" << endl << endl;
 
-		std::cout << method << std::endl;
-
 		form_iterator fi = formData.getElement("challenge");  
 		if( !fi->isEmpty() && fi != (*formData).end()) {  
 			cout << **fi;  
